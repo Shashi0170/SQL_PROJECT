@@ -86,7 +86,7 @@ WITH POPULAR_GENRE AS (
 SELECT * FROM POPULAR_GENRE WHERE ROW_NO <= 1;
 
 
-/* Q3: Write a query that determines the customer that has spent the most on music for each country. 
+/* Q11: Write a query that determines the customer that has spent the most on music for each country. 
 Write a query that returns the country along with the top customer and how much they spent. 
 For countries where the top amount spent is shared, provide all customers who spent this amount. */
 SELECT * FROM INVOICE;
